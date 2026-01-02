@@ -13,6 +13,6 @@ Sessions:
    https://github.com/pawelpo/presentations/tree/master/20251213%20SQL%20Server%202025%20Launch
 4. **Change Event Stream Use case** 
    _Damian Widera_
-   _See:_ [Change Event Stream Use case](/Change Event Stream Use case)
+   _See:_ [`Change Event Stream Use case`](Change Event Stream Use case)
 6. **SQL Server 2025 i Fabric - jak wykorzystać zalety obu**
    _Michał Sadowski, Tomasz Libera_
