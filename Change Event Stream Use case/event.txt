@@ -1,0 +1,19 @@
+{ "specversion": "1.0", 
+"type": "com.microsoft.SQL.CES.DML.V1",
+ "source": "\/", 
+ "id": "34831137-1260-4b78-bca0-39cc75075cad",
+ "logicalid": "5df43d5e-c877-4cfc-a4ca-99acb452dbe9:0000002C000004000027:00000000000000000001", 
+ "time": "2025-12-12T21:24:32.893Z", "datacontenttype": "application\/avro-json", 
+ "operation": "INS", "segmentindex": 1, 
+ "finalsegment": true, "data": "{\n \"eventsource\": 
+ {\n \"db\": \"SQLServer2025Launch\",\n \"schema\": \"dbo\",\n \"tbl\": \"Sensors\",\n 
+ \"cols\": [\n {\n \"name\": \"SensorID\",\n \"type\": \"int\",\n \"index\": 0\n },\
+ n {\n \"name\": \"SensorName\",\n \"type\": \"nvarchar(100)\",\n \"index\": 1\n },\n 
+ {\n \"name\": \"Location\",\n \"type\": \"nvarchar(100)\",\n \"index\": 2\n },\n {\n
+  \"name\": \"Model\",\n \"type\": \"nvarchar(50)\",\n \"index\": 3\n },\n {\n \"name\": \"InstallDate\",\n \"type\": \"date\",\n \"index\": 4\n },\n {\n \"name\": \"IsActive\",\n \"type\": \"bit\",\n \"index\": 5\n }\n ],\n \"pkkey\": [\n {\n \"columnname\": \"SensorID\",\n \"value\": \"1\"\n }\n ],\n \"transaction\": {\n \"commitlsn\": \"0000002C:00000400:0027\",\n \"beginlsn\": \"0000002C:00000400:0002\",\n \"sequencenumber\": 1,\n \"committime\": \"2025-12-12T21:24:32.893Z\"\n }\n },\n \"eventrow\": {\n \"old\": \"{}\",\n \"current\": \"{\\\"SensorID\\\": \\\"1\\\", \\\"SensorName\\\": \\\"TempSensor-A1\\\", \\\"Location\\\": \\\"Server Room\\\", \\\"Model\\\": \\\"TS-1000\\\", \\\"InstallDate\\\": \\\"2025-05-01\\\", \\\"IsActive\\\": \\\"1\\\"}\"\n }\n}" }
+
+
+
+
+
+ { "specversion": "1.0", "type": "com.microsoft.SQL.CES.DML.V1", "source": "\/", "id": "9a18fc65-c20b-4486-bf7c-c7de7d53c221", "logicalid": "5df43d5e-c877-4cfc-a4ca-99acb452dbe9:0000002C000005900003:00000000000000000001", "time": "2025-12-12T21:27:08.247Z", "datacontenttype": "application\/avro-json", "operation": "INS", "segmentindex": 1, "finalsegment": true, "data": "{\n \"eventsource\": {\n \"db\": \"SQLServer2025Launch\",\n \"schema\": \"dbo\",\n \"tbl\": \"TemperatureReadings\",\n \"cols\": [\n {\n \"name\": \"ReadingID\",\n \"type\": \"bigint\",\n \"index\": 0\n },\n {\n \"name\": \"SensorID\",\n \"type\": \"int\",\n \"index\": 1\n },\n {\n \"name\": \"TemperatureCelsius\",\n \"type\": \"decimal(5,2)\",\n \"index\": 2\n },\n {\n \"name\": \"RecordedAt\",\n \"type\": \"datetime2(7)\",\n \"index\": 3\n }\n ],\n \"pkkey\": [\n {\n \"columnname\": \"ReadingID\",\n \"value\": \"21\"\n }\n ],\n \"transaction\": {\n \"commitlsn\": \"0000002C:00000590:0003\",\n \"beginlsn\": \"0000002C:00000590:0001\",\n \"sequencenumber\": 1,\n \"committime\": \"2025-12-12T21:27:08.247Z\"\n }\n },\n \"eventrow\": {\n \"old\": \"{}\",\n \"current\": \"{\\\"ReadingID\\\": \\\"21\\\", \\\"SensorID\\\": \\\"1\\\", \\\"TemperatureCelsius\\\": \\\"20.20\\\", \\\"RecordedAt\\\": \\\"2025-12-12 20:27:08.2486073\\\"}\"\n }\n}" }
